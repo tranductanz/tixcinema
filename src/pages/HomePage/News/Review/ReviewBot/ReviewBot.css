@@ -1,0 +1,33 @@
+.list-col{
+    display: flex;
+}
+
+.col-news{
+    width: calc(100%/3);
+    height: 400px;
+    margin: 10px;
+}
+
+.col-news .news img{
+    width: 300px;
+    height: 150px;
+}
+.col-news  p{
+   line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-col{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .col-news{
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .col-news  p{
+        text-align: center;
+     }
+  }

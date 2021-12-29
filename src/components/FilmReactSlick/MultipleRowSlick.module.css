@@ -1,0 +1,78 @@
+
+
+.slick-prev::before, .slick-next::before{
+    color: gray !important;
+    font-size: 3rem !important;
+}
+
+
+.width-item{
+    width: 100% !important;   
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+
+/* BTN SHOWING FILM */
+.status .status-btn {
+  position: relative;
+  padding: 0.75em 2em;
+  font: 16px "Orbitron";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 5px 20px rgba(192, 36, 0, 0.4), 0 2px 2px rgba(192, 36, 0, 0.4);
+  background-image: radial-gradient(100% 75% at 50% 100%, #fed262 0%, #c40900 100%);
+  border: none;
+  border-radius: 100px;
+  box-shadow: inset 0 3px 15px 0 #ae2000, inset 0 -3px 0 0 #fed262, inset 0 40px 0 0 rgba(254, 210, 98, 0.4), inset 0 20px 20px 0 #f8bf45, 0 0 0 8px #000, 0 9px 0 0 #444, 0 0 20px 0 rgba(254, 210, 98, 0.4), 0 40px 20px -30px rgba(254, 210, 98, 0.2);
+}
+.status .status-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  top: -1rem;
+  left: -2rem;
+  right: -2rem;
+  bottom: -1rem;
+  background: linear-gradient(#333, #151515);
+  border-radius: 100px;
+  box-shadow: 0 2px 10px #000, inset 0 2px 0 #444;
+}
+.status .status-btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #000;
+  box-shadow: 0 1px 0 #444;
+  height: 10px;
+  left: -2rem;
+  right: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.status .status-btn:hover {
+  cursor: pointer;
+  background-image: radial-gradient(100% 75% at 50% 100%, #f7b940 0%, #a20700 100%);
+}
+
+
+
+
+.active_Film {
+    color: red;
+    transform: scale(1.5);
+    /* box-shadow: rgba(240, 46, 170, 0.4) 0px 2px, rgba(240, 46, 170, 0.3) 0px 5px, rgba(240, 46, 170, 0.2) 0px 10px, rgba(240, 46, 170, 0.1) 0px 10px, rgba(240, 46, 170, 0.05) 0px 5px; */
+}
+.active_Film:focus {
+    transition: 0.2s all ease-in-out;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.none_active.Film{
+    @apply bg-white text-gray-800;
+}

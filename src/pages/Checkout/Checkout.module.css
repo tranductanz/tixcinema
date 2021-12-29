@@ -1,0 +1,70 @@
+.trapezoid {
+    border-bottom: 60px solid gray;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    height: 0;
+    width: 80%;
+    opacity: 0.15;
+    filter: drop-shadow(18px 86px 54px #787878);
+    -webkit-filter: drop-shadow(18px 86px 54px #787878);
+    -moz-filter: drop-shadow(18px 86px 54px #787878);
+}
+
+
+.ghe{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/armchairGrey.png')
+}
+.ghe:hover{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/armchairGreen.png')
+}
+
+.ghe-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+.ghe-vip{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/vip-chair-grey.png')
+}
+
+.ghe-vip:hover{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/vip-chair-green.png')
+}
+
+.logoTab {
+    opacity: 1;
+}
+
+  
+  
+.ant-tabs-tab img{
+    opacity: 0.35;
+
+}
+
+.ant-tabs-tab img:hover{
+    opacity: 1;
+}
+
+/* .ant-tabs-ink-bar {
+    margin-left: 50px !important;
+} */
+
+.ant-tabs-tab-btn{
+    color: red !important;
+    cursor: default;
+    font-size: 24px;
+    /* margin-left: 100px; */
+}

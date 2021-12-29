@@ -1,0 +1,163 @@
+
+/* .ant-tabs-ink-bar {
+    margin-left: 50px !important;
+} */
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ghe{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/armchairGrey.png')
+}
+
+
+
+
+
+
+
+.ghe-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+.ghe-vip{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/vip-chair-grey.png')
+}
+
+
+
+
+
+.ghe-da-dat{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/armchairRed.png');
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+
+.ghe-da-dat-vip{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/vip-chair-red.png');
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+.ghe-dang-chon-thuong{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/armchairGreen.png')
+}
+
+.ghe-dang-chon-vip{
+    background: url('../../assets/SeatBooking/vip-chair-green.png')
+}
+
+
+.ghe-da-thanh-toan{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/you-choose.png');
+    background-color: rgb(173, 216, 230);
+    border-radius: 25px;
+    cursor: not-allowed;
+
+}
+
+.ghe-vip-da-thanh-toan{
+    width: 64px;
+    height: 64px;
+    background: url('../../assets/SeatBooking/you-choose-vip.png');
+    background-color: rgb(173, 216, 230);
+    border-radius: 30px;
+    cursor: not-allowed;
+}
+
+/* Mobile */
+
+@media (min-width:1025px){
+    .ghe:hover{
+        background: url('../../assets/SeatBooking/armchairGreen.png')
+    }
+    .ghe-vip:hover{
+        background: url('../../assets/SeatBooking/vip-chair-green.png')
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ghe{
+        /* width: 64px;
+        height: 64px;
+        background: url('../../assets/SeatBooking/armchairGrey.png') */
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/icons8-armchair-32-grey.png');
+    }
+    .ghe-dang-chon-thuong{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/icons8-armchair-32-green.png')
+    }  
+    .ghe-vip{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/vip-chair-mobile-grey.png');
+    }
+    
+    .ghe-vip:hover{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/vip-chair-mobile-green.png');
+    }
+    .ghe-dang-chon-vip{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/vip-chair-mobile-green.png');
+    }
+    .ghe-da-dat{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/icons8-armchair-32-red.png');
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+    .ghe-da-dat-vip{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/vip-chair-mobile-red.png');
+        cursor: not-allowed;
+        opacity: 0.5;
+    
+    }
+    .ghe-da-thanh-toan{
+        width: 32px;
+        height: 32px;
+        background: url('../../assets/SeatBooking/responsiveMobile/paid-chair-mobile.png');
+        cursor: not-allowed;
+    }
+    
+    .ghe-vip-da-thanh-toan{
+        width: 32px;
+        height: 32px;
+        cursor: not-allowed;
+        background: url('../../assets/SeatBooking/responsiveMobile/paid-chair-vip.png');
+       
+    }
+}
+

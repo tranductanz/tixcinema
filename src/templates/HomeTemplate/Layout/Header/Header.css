@@ -1,0 +1,99 @@
+
+
+
+/* 
+.dropdown {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateX(-40%);
+    transition: opacity .15s ease-out;
+    border-radius: 30px;
+    pointer-events: none;
+}
+.dropdown-item {
+    padding: 20px;
+    pointer-events: none;
+}
+.dropdown-item a {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#8E0E00, #eea849);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+
+
+.has-dropdown:focus-within .dropdown   {
+    opacity: 1;
+}
+
+
+.active-item a:target{
+    border-bottom: red 2px solid;
+    width: 100%;
+}
+
+
+
+  @keyframes myAnimation{
+    0%{
+      opacity: 1;
+      transform: rotateX(90deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    100%{
+      display: none;
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+  }
+
+
+.nav-hide{
+    animation-name: myAnimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+ .ant-dropdown-menu-title-content{
+  color: red;
+}
+
+.ant-dropdown-menu-item {
+  background-color: rgba(0,0,0,.88);
+  border-radius: 35px;
+}
+.ant-dropdown-menu .ant-dropdown-menu-root .ant-dropdown-menu-vertical .ant-dropdown-menu-light{
+
+}
+.ant-dropdown-menu{
+  padding: 0 !important;
+  background-color: initial !important;
+}
+  .ant-dropdown-menu-title-content p{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+
+    }
+
+    .ant-dropdown-menu-title-content a:hover{
+      font-size: 18px;
+      color: red;
+
+    }
+
+    .ant-dropdown-menu-item-divider, .ant-dropdown-menu-submenu-title-divider{
+      background-color: transparent !important;
+    }

@@ -1,0 +1,13 @@
+/* .detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+} */
+
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap{
+    display: flex !important;
+    flex: initial !important
+}
